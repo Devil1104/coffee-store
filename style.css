@@ -240,6 +240,16 @@ section {
   }
 }
 @media (max-width: 1150px) {
+  .icons {
+    display: flex;
+    /* margin-top: 100px; */
+    position: relative;
+    justify-content: center;
+    margin-left: 50px;
+  }
+  .icons a {
+    margin-left: 20px;
+  }
   :root {
     --big-font: 3.5rem;
   }
@@ -251,6 +261,16 @@ section {
   }
 }
 @media (max-width: 950px) {
+  .icons {
+    display: flex;
+    margin-top: 180px;
+    position: relative;
+    justify-content: center;
+    margin-left: 50px;
+  }
+  .icons a {
+    margin-left: 20px;
+  }
   #menu-icon {
     display: block;
   }
